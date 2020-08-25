@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f73c5fd3-6942-4293-9ba3-0c480aabba53/resourceGroups/TeamsCollaboration_RG/providers/Microsoft.Web/sites/narolac",
+    "appService.deploySubpath": "build"
+}

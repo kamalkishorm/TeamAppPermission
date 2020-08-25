@@ -1,0 +1,45 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.7",
+    "version": "{version}",
+    "id": "ab05d0cc-a165-434b-8f7e-49dfaea9e5ff",
+    "packageName": "com.celebaltech.teamsapp",
+    "developer": {
+        "name": "Celebal Technologies",
+        "websiteUrl": "{baseUrl0}",
+        "privacyUrl": "{baseUrl0}",
+        "termsOfUseUrl": "{baseUrl0}"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "{appname}",
+        "full": "{fullappname}"
+    },
+    "description": {
+        "short": "NTA",
+        "full": "Nearolac Teams App | Permission"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "permissionCheck",
+            "name": "Permission Check",
+            "contentUrl": "{baseUrl1}",
+            "websiteUrl": "{baseUrl1}",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [],
+    "devicePermissions": [
+        "media"
+    ]
+}
